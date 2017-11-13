@@ -35,7 +35,7 @@ namespace Avinode_CodeSample
                 ex.LogToConsole("Sorry, an error occurred");
             }
 
-            Console.ReadKey();
+            
         }
     }
 }

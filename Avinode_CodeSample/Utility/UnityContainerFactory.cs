@@ -39,8 +39,6 @@ namespace Avinode_CodeSample.Utility
         //Register all dependencies here.
         private void Register(IUnityContainer container)
         {
-            //factories          
-            container.RegisterType<IUnityContainerFactory, UnityContainerFactory>();
             //classes
             container.RegisterType<IMenuParser, MenuParser>();
             container.RegisterType<IMenuDisplay, ConsoleDisplay>();
