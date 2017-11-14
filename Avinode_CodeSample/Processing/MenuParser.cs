@@ -11,8 +11,7 @@ using System.Xml;
 namespace Avinode_CodeSample.Processing
 {
     /// <summary>
-    /// Defines methods to parse an xml menu document and 
-    /// build an in-memory menu tree.
+    /// Defines methods to parse an xml menu document.
     /// </summary>
     public interface IMenuParser
     {
@@ -25,15 +24,13 @@ namespace Avinode_CodeSample.Processing
         MenuNode Parse(XmlDocument xmlMenu, string matchPath);
     }
 
-
     /// <summary>
-    /// Class used to parse an Xml menu document and display
-    /// active paths.
+    /// Class used to parse an Xml menu document.
     /// </summary>
     public class MenuParser : IMenuParser
     {
         /// <summary>
-        /// Method for parsing an Xml menu document and produce a menu.
+        /// Method for parsing an Xml menu document and building a tree of MenuNodes.
         /// <param name="xmlMenu">Menu xml document</param>
         /// <param name="matchPath">Path to match in xml document</param>
         /// <returns>Root of the menu built from the xml document</returns>

@@ -10,7 +10,7 @@ using System;
 namespace Avinode_CodeSample.Processing
 {
     /// <summary>
-    /// Defines methods for displaying a menu tree.
+    /// Defines methods for displaying a menu.
     /// </summary>
     public interface IMenuDisplay
     {
@@ -30,7 +30,7 @@ namespace Avinode_CodeSample.Processing
         private const string active = "ACTIVE";
 
         /// <summary>
-        /// Method for displaying a menu in the console.
+        /// Method for displaying a menu and identifying active paths in the console.
         /// </summary>
         /// <param name="menu">Root node of the menu to display.</param>
         public void Display(MenuNode menu)

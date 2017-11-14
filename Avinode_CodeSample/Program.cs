@@ -26,6 +26,7 @@ namespace Avinode_CodeSample
 
             try
             {
+                //start processing
                 IMenuProcessor processor = unityContainer.Resolve<IMenuProcessor>();
                 processor.Process(args[0], args[1]);
                

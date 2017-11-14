@@ -15,7 +15,7 @@ namespace Avinode_CodeSample.Processing
     public interface IMenuProcessor
     {
         /// <summary>
-        /// Defines a method for processing and XML menu.
+        /// Defines a method for processing an XML menu.
         /// </summary>
         /// <param name="menuPath">Path to XML menu file.</param>
         /// <param name="matchPath">Active path to match.</param>
@@ -23,7 +23,7 @@ namespace Avinode_CodeSample.Processing
     }
 
     /// <summary>
-    /// Class for processing and XML menu.
+    /// Class for processing an XML menu.
     /// </summary>
     public class MenuProcessor : IMenuProcessor
     {
@@ -37,7 +37,7 @@ namespace Avinode_CodeSample.Processing
         }
 
         /// <summary>
-        /// Class for processing and XML menu.
+        /// Method for parsing and displaying an XML menu document.
         /// </summary>
         /// <param name="menuPath">Path to XML menu file.</param>
         /// <param name="matchPath">Active path to match.</param>
