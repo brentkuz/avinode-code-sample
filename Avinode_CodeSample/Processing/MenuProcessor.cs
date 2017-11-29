@@ -44,7 +44,7 @@ namespace Avinode_CodeSample.Processing
         public void Process(string menuPath, string matchPath)
         {
             if (!File.Exists(menuPath))
-                throw new FileNotFoundException("MenuParser: The menu could not be located.");
+                throw new FileNotFoundException("MenuProcessor: The menu could not be located.");
 
             //Load xml doc into memory
             var xml = new XmlDocument();
