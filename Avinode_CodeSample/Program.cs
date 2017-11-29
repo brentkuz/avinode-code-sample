@@ -17,7 +17,6 @@ namespace Avinode_CodeSample
             if (args == null || args.Length != 2)
             {
                 Console.WriteLine("This program requires 2 arguments: Arg1 = path to xml menu; Arg2 = active path to match;");
-                Console.WriteLine("Arg 1: path to menu; Arg 2: match path");
                 return;
             }
 
